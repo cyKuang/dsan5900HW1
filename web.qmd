@@ -1,0 +1,29 @@
+---
+title: "DSAN5900 HW1"
+author: "Chuyun Kuang & Linda Ding"
+date: "Feb, 22, 2025"
+format:
+  html:
+    code-fold: true
+    embed-resources: true
+    code-summary: "Show the code"
+---
+
+![](image.png)
+
+## Introduction
+"University admissions should be a gateway to opportunity, not a privilege reserved for the few."
+
+In recent years, university admissions have faced intense scrutiny. From high-profile scandals involving wealthy families gaming the system to growing concerns about bias in decision-making, fairness in admissions is more critical than ever. Stakeholders, students, and the public demand transparency, equity, and a merit-based approach to admissions.
+
+Our responsibility is not only to attract top talent but to ensure that every applicant is evaluated fairly, regardless of background, financial status, or personal connections. This project seeks to analyze key admission trends, uncover biases (if any), and provide data-driven recommendations to strengthen our admission policies.
+
+Why is this important?
+
+- Fairness & Reputation: A transparent, data-backed admission process strengthens institutional credibility.
+- Diversity & Inclusion: A fair process ensures access to education for students from all backgrounds.
+- Optimized Yield & Enrollment: Understanding applicant behavior helps us admit students who are more likely to enroll and succeed.
+
+## Data Overview & Preprocessing
+
+## Data Visualization and Insights
