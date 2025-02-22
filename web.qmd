@@ -1,12 +1,11 @@
 ---
 title: "DSAN5900 HW1"
 author: "Chuyun Kuang & Linda Ding"
-date: "Feb, 22, 2025"
+date: "February 22, 2025"
 format:
   html:
     code-fold: true
     embed-resources: true
-    code-summary: "Show the code"
 ---
 
 ![](image.png)
