@@ -27,3 +27,39 @@ Why is this important?
 ## Data Overview & Preprocessing
 
 ## Data Visualization and Insights
+
+To better understand the admission process at our University, we have conducted an in-depth analysis of the applicant data. The following visualizations illustrate geographical trends, admission rates, and key academic factors that influence acceptance decisions. Let’s walk through the findings step by step to uncover actionable insights.
+
+### Where Do Applicants Come From?
+
+The first visualization provides a geographical breakdown of admission decisions across various states. The pie charts represent the proportion of applicants who were admitted (blue), declined (red), or waitlisted (orange) in different locations.
+
+From this map, we can observe that states like California and Nevada have a relatively high proportion of admitted students, suggesting a strong applicant pool from these regions. On the other hand, states such as Massachusetts and Georgia show a higher proportion of declined applicants, raising questions about possible regional disparities in acceptance rates. The significant presence of waitlisted students in some states suggests strategic waitlisting to manage yield rates and optimize enrollments.
+
+These findings prompt further questions: Are students from certain states disadvantaged due to quotas or implicit biases? Is there a preference for in-state applicants over out-of-state students? Understanding these regional differences is crucial to ensuring a fair and balanced admissions process.
+
+### How Does GPA Influence Admission?
+
+The second visualization examines the relationship between GPA and admission decisions across different states. Darker shades on the map indicate higher average GPAs for each admission category.
+
+From this analysis, we see a clear pattern: students with higher GPAs are more likely to be admitted, especially in states like California, Nevada, and Florida. Conversely, states with a higher proportion of rejected applicants tend to have lower GPAs, as seen in lighter-colored states like Mississippi and North Carolina.
+
+Interestingly, waitlisted students often have intermediate GPAs, suggesting that while academic performance is important, it is not the sole factor determining admission. This insight raises important strategic considerations: Are we rejecting high-GPA students from certain states due to capacity limits or other institutional priorities? Should we reconsider admission criteria to ensure we are not missing out on strong candidates from specific regions?
+
+### What Are the Key Factors in Admissions?
+
+The third visualization provides a statistical summary of key academic and extracurricular factors for admitted, declined, and waitlisted students. The data highlights some important trends:
+
+- Admitted students have the highest average GPA (3.7) and test scores (960.4), reinforcing the strong emphasis on academic performance.
+- Declined applicants have lower GPAs (3.3) and significantly lower test scores (780.1), suggesting that poor academic performance is a primary reason for rejection.
+- Interestingly, declined and waitlisted students had slightly higher volunteer and work experience levels than admitted students, indicating that extracurricular activities are not given as much weight as academic achievements.
+- Writing scores also appear to be an important differentiator, with admitted students having the highest average writing scores (88.1).
+
+These findings suggest that our university places a strong emphasis on GPA, test scores, and writing ability, while volunteer experience and work background have little impact on admissions. This approach may lead to overlooking well-rounded students who excel in leadership, community involvement, and professional experience.
+
+
+## Conclusion
+
+This analysis underscores the importance of ensuring fairness, equity, and transparency in university admissions. While our school follows a predominantly merit-based approach, our findings suggest room for improvement in selecting well-rounded students, addressing regional disparities, and refining selection criteria.
+
+By implementing a more holistic review process and ensuring admissions decisions align with the university’s broader goals, our university can enhance its reputation, increase yield rates, and ultimately build a more diverse and high-achieving student body.
