@@ -20,35 +20,28 @@ format:
 ![](image.png)
 
 ## Introductiosn
-> <big>"University admissions should be a gateway to opportunity, not a privilege reserved for the few."</big>
 
-In recent years, university admissions have faced intense scrutiny. From high-profile scandals involving wealthy families gaming the system to growing concerns about bias in decision-making, fairness in admissions is more critical than ever. Stakeholders, students, and the public demand transparency, equity, and a merit-based approach to admissions.
+Every year, thousands of students apply for competitive summer internships, hoping to gain hands-on experience, build industry connections, and set themselves apart in the job market. Yet, not all applications are judged equally. While some students secure coveted spots with ease, others—despite strong credentials—face rejection or indefinite waitlisting.
 
-Our responsibility is not only to attract top talent but to ensure that every applicant is evaluated fairly, regardless of background, financial status, or personal connections. This project seeks to analyze key admission trends, uncover biases (if any), and provide data-driven recommendations to strengthen our admission policies.
+In recent years, concerns about **internship selection fairness** have gained attention. Are companies prioritizing the right candidates? Are **GPA and test scores** the best predictors of success in the workplace? Are students from **certain universities or regions** getting an unfair advantage?
 
-**<big style="font-size:25px; color:#005496;">Why</big>** is this important?
-
-- Fairness & Reputation: A transparent, data-backed admission process strengthens institutional credibility.
-- Diversity & Inclusion: A fair process ensures access to education for students from all backgrounds.
-- Optimized Yield & Enrollment: Understanding applicant behavior helps us admit students who are more likely to enroll and succeed.
+To answer these questions, we analyzed data from our university to uncover trends in internship selection. Through this data-driven investigation, we aim to **unravel the hidden patterns behind internship offers, rejections, and waitlists**—ultimately helping students and recruiters make smarter, fairer decisions.
 
 ## Data Overview & Preprocessing
 
 ## Data Visualization and Insights
 
-To better understand the admission process at our University, we have conducted an in-depth analysis of the applicant data. The following visualizations illustrate geographical trends, admission rates, and key academic factors that influence acceptance decisions. Let’s walk through the findings step by step to uncover actionable insights.
-
 ### Where Do Applicants Come From?
 
-The first visualization provides a geographical breakdown of admission decisions across various states. The pie charts represent the proportion of applicants who were **admitted (blue)**, **declined (red)**, or **waitlisted (orange)** in different locations.
+The first visualization provides a geographical breakdown of summer admission decisions across various states. The pie charts represent the proportion of applicants who were **admitted (blue)**, **declined (red)**, or **waitlisted (orange)** in different locations.
 
-From this map, we can observe that states like California and Nevada have a relatively high proportion of **admitted** students, suggesting a strong applicant pool from these regions. On the other hand, states such as Massachusetts and Georgia show a higher proportion of declined applicants, raising questions about possible regional disparities in acceptance rates. The significant presence of waitlisted students in some states suggests strategic waitlisting to manage yield rates and optimize enrollments.
+From this map, we can observe that states like **California and Nevada** have a relatively high proportion of **admitted** students, suggesting a strong applicant pool from these regions. On the other hand, states such as **Massachusetts and Georgia** show a higher proportion of **declined** applicants, raising questions about possible regional disparities in acceptance rates. The significant presence of waitlisted students in some states suggests strategic waitlisting to manage yield rates and optimize enrollments.
 
 These findings prompt further questions: Are students from certain states disadvantaged due to quotas or implicit biases? Is there a preference for in-state applicants over out-of-state students? Understanding these regional differences is crucial to ensuring a fair and balanced admissions process.
 
 ### How Does GPA Influence Admission?
 
-The second visualization examines the relationship between GPA and admission decisions across different states. Darker shades on the map indicate higher average GPAs for each admission category.
+The second visualization examines the relationship between GPA and summer admission decisions across different states. **Darker shades** on the map indicate **higher average GPAs** for each admission category.
 
 From this analysis, we see a clear pattern: students with **higher GPAs** are more likely to be **admitted**, especially in states like California, Nevada, and Florida. Conversely, states with a higher proportion of rejected applicants tend to have lower GPAs, as seen in lighter-colored states like Mississippi and North Carolina.
 
@@ -58,16 +51,18 @@ Interestingly, waitlisted students often have intermediate GPAs, suggesting that
 
 The third visualization provides a statistical summary of key academic and extracurricular factors for admitted, declined, and waitlisted students. The data highlights some important trends:
 
-- Admitted students have the highest average GPA (3.7) and test scores (960.4), reinforcing the strong emphasis on academic performance.
-- Declined applicants have lower GPAs (3.3) and significantly lower test scores (780.1), suggesting that poor academic performance is a primary reason for rejection.
-- Interestingly, declined and waitlisted students had slightly higher volunteer and work experience levels than admitted students, indicating that extracurricular activities are not given as much weight as academic achievements.
+- Admitted students have the highest average GPA (3.7) and test scores (960.4), reinforcing the strong emphasis on **academic performance**.
+- Declined applicants have lower GPAs (3.3) and significantly lower test scores (780.1), suggesting that **poor academic performance is a primary reason for rejection**.
+- Interestingly, **declined and waitlisted students had slightly higher volunteer and work experience levels** than admitted students, indicating that extracurricular activities are not given as much weight as academic achievements.
 - Writing scores also appear to be an important differentiator, with admitted students having the highest average writing scores (88.1).
 
-These findings suggest that our university places a strong emphasis on GPA, test scores, and writing ability, while volunteer experience and work background have little impact on admissions. This approach may lead to overlooking well-rounded students who excel in leadership, community involvement, and professional experience.
+These findings challenge the traditional hiring narrative—if strong work experience and leadership roles are not translating into higher internship acceptance rates, companies may be overlooking valuable candidates who possess essential soft skills, adaptability, and real-world experience.
 
 
 ## Conclusion
 
-This analysis underscores the importance of ensuring fairness, equity, and transparency in university admissions. While our school follows a predominantly merit-based approach, our findings suggest room for improvement in selecting well-rounded students, addressing regional disparities, and refining selection criteria.
+The data reveals that while internship selection is largely merit-based, hidden patterns and overlooked opportunities exist. High-GPA students have an advantage, but real-world skills, leadership, and communication abilities are just as critical for success in the workplace.
 
-By implementing a more holistic review process and ensuring admissions decisions align with the university’s broader goals, our university can enhance its reputation, increase yield rates, and ultimately build a more diverse and high-achieving student body.
+To build a stronger, more diverse workforce, recruiters must look beyond grades and test scores, while students must position themselves as well-rounded candidates who bring more than just academic achievements to the table.
+
+By refining the internship selection process, we can create a fairer, more dynamic system that helps students unlock opportunities and prepares them for long-term career success.
