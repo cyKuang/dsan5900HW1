@@ -1,5 +1,6 @@
 ---
 title: "DSAN5900 HW1"
+subtitle: "Improving Our Selection Process For Diversity & Inclusion"
 author: "Chuyun Kuang & Linda Ding"
 date: "February 22, 2025"
 format:
@@ -8,16 +9,24 @@ format:
     embed-resources: true
 ---
 
+<style type="text/css">
+  body{
+  font-family: Calibri;
+  font-size: 16pt;
+}
+</style>
+
+
 ![](image.png)
 
-## Introduction
-"University admissions should be a gateway to opportunity, not a privilege reserved for the few."
+## Introductiosn
+> <big>"University admissions should be a gateway to opportunity, not a privilege reserved for the few."</big>
 
 In recent years, university admissions have faced intense scrutiny. From high-profile scandals involving wealthy families gaming the system to growing concerns about bias in decision-making, fairness in admissions is more critical than ever. Stakeholders, students, and the public demand transparency, equity, and a merit-based approach to admissions.
 
 Our responsibility is not only to attract top talent but to ensure that every applicant is evaluated fairly, regardless of background, financial status, or personal connections. This project seeks to analyze key admission trends, uncover biases (if any), and provide data-driven recommendations to strengthen our admission policies.
 
-Why is this important?
+**<big style="font-size:25px; color:#005496;">Why</big>** is this important?
 
 - Fairness & Reputation: A transparent, data-backed admission process strengthens institutional credibility.
 - Diversity & Inclusion: A fair process ensures access to education for students from all backgrounds.
@@ -31,9 +40,9 @@ To better understand the admission process at our University, we have conducted 
 
 ### Where Do Applicants Come From?
 
-The first visualization provides a geographical breakdown of admission decisions across various states. The pie charts represent the proportion of applicants who were admitted (blue), declined (red), or waitlisted (orange) in different locations.
+The first visualization provides a geographical breakdown of admission decisions across various states. The pie charts represent the proportion of applicants who were **admitted (blue)**, **declined (red)**, or **waitlisted (orange)** in different locations.
 
-From this map, we can observe that states like California and Nevada have a relatively high proportion of admitted students, suggesting a strong applicant pool from these regions. On the other hand, states such as Massachusetts and Georgia show a higher proportion of declined applicants, raising questions about possible regional disparities in acceptance rates. The significant presence of waitlisted students in some states suggests strategic waitlisting to manage yield rates and optimize enrollments.
+From this map, we can observe that states like California and Nevada have a relatively high proportion of **admitted** students, suggesting a strong applicant pool from these regions. On the other hand, states such as Massachusetts and Georgia show a higher proportion of declined applicants, raising questions about possible regional disparities in acceptance rates. The significant presence of waitlisted students in some states suggests strategic waitlisting to manage yield rates and optimize enrollments.
 
 These findings prompt further questions: Are students from certain states disadvantaged due to quotas or implicit biases? Is there a preference for in-state applicants over out-of-state students? Understanding these regional differences is crucial to ensuring a fair and balanced admissions process.
 
@@ -41,7 +50,7 @@ These findings prompt further questions: Are students from certain states disadv
 
 The second visualization examines the relationship between GPA and admission decisions across different states. Darker shades on the map indicate higher average GPAs for each admission category.
 
-From this analysis, we see a clear pattern: students with higher GPAs are more likely to be admitted, especially in states like California, Nevada, and Florida. Conversely, states with a higher proportion of rejected applicants tend to have lower GPAs, as seen in lighter-colored states like Mississippi and North Carolina.
+From this analysis, we see a clear pattern: students with **higher GPAs** are more likely to be **admitted**, especially in states like California, Nevada, and Florida. Conversely, states with a higher proportion of rejected applicants tend to have lower GPAs, as seen in lighter-colored states like Mississippi and North Carolina.
 
 Interestingly, waitlisted students often have intermediate GPAs, suggesting that while academic performance is important, it is not the sole factor determining admission. This insight raises important strategic considerations: Are we rejecting high-GPA students from certain states due to capacity limits or other institutional priorities? Should we reconsider admission criteria to ensure we are not missing out on strong candidates from specific regions?
 
