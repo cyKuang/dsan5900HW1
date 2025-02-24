@@ -66,7 +66,7 @@ The map reveals that the majority of applicants come from **California, Utah, Co
 
 Additionally, we observe notable differences in admission outcomes across states. **California and Colorado** have a higher proportion of admitted students, suggesting that applicants from these regions may have stronger profiles or that these states are more favored in the selection process. In contrast, Utah show a higher proportion of declined applicants, pointing to potential regional disparities in acceptance rates.
 
-Another interesting pattern is the significant number of waitlisted students in some states (such as in Virginia), which could indicate a strategic approach to managing yield rates and optimizing enrollment.
+Another interesting pattern is the **significant number of waitlisted students in some states** (such as in Virginia), which could indicate a strategic approach to managing yield rates and optimizing enrollment.
 
 These findings lead us to critical questions: Are students from certain states at a disadvantage due to quotas or implicit biases? Do in-state applicants receive preferential treatment over out-of-state students? Understanding these regional differences is essential to ensuring a fair and equitable admissions process.
 
@@ -80,12 +80,12 @@ The second visualization examines the relationship between GPA and summer admiss
 
 From this analysis, we see a clear pattern: students with **higher GPAs** are more likely to be **admitted**, especially in states like California, Colorado, and Florida. Conversely, states with a higher proportion of rejected applicants tend to have lower GPAs, as seen in lighter-colored states like Virginia.
 
-Interestingly, waitlisted students often have intermediate GPAs, suggesting that while academic performance is important, it is not the sole factor determining admission. This insight raises important strategic considerations: Are we rejecting high-GPA students from certain states due to capacity limits or other institutional priorities? Should we reconsider admission criteria to ensure we are not missing out on strong candidates from specific regions?
+Interestingly, waitlisted students often have intermediate GPAs, suggesting that while academic performance is important, it is **not the sole factor determining admission**. This insight raises important strategic considerations: Are we rejecting high-GPA students from certain states due to capacity limits or other institutional priorities? Should we reconsider admission criteria to ensure we are not missing out on strong candidates from specific regions?
 
 ### Gender Disparities in Admission Decisions: Do Male and Female Applicants Face Different Outcomes?
 
 ```{=html}
-<div class='tableauPlaceholder' id='viz1740421163108' style='position: relative'><noscript><a href='#'><img alt='Admission Decision Between Male and Female Applicants ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu1&#47;Sheet5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hw1gendervisu1&#47;Sheet5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu1&#47;Sheet5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740421163108');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1740423223077' style='position: relative'><noscript><a href='#'><img alt='Admission Decision Between Male and Female Applicants ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu2&#47;Sheet6&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hw1gendervisu2&#47;Sheet6' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu2&#47;Sheet6&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740423223077');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 ```
 This visualization presents a comparative analysis of admission outcomes for male and female applicants applying for summer internships. The pie charts illustrate the distribution of decisions for each gender, categorized into **admitted (blue)**, **declined (red)**, and **waitlisted (orange)**.
 
@@ -96,6 +96,7 @@ Moreover, there was **similar acceptance rates, decline rates, and waitlist rate
 Therefore, the admission decisions between male and female applicants appear to be generally fair. Next, we will delve deeper into the statistical summary of male and female applicants, focusing on their **academic performance** and **extracurricular activities**.
 
 #### The Story Behind the Numbers: How Do Male and Female Applicants Compare?
+
 After examining overall admission decisions, we now shift our focus to academic performance and extracurricular activities to uncover potential patterns influencing male and female applicants’ outcomes. This statistical summary provides key insights into how **GPA, test scores, volunteer work, work experience, and writing skills** contribute to internship selection.
 
 ```{=html}
@@ -104,15 +105,17 @@ After examining overall admission decisions, we now shift our focus to academic 
 
 The table reveals an interesting trend: **female applicants who were admitted had lower academic performance** than their male counterparts but **compensated with stronger work experience and volunteer engagement**.
 
-- Lower Academic Performance for Admitted Females
+- **Lower Academic Performance for Admitted Females**
   - Admitted females had an average GPA of 3.7 and a test score of 952.8, compared to admitted males with a GPA of 3.8 and a test score of 966.6.
   - This suggests that academics were slightly less emphasized in the selection of female applicants.
   
-- More Work & Volunteer Experience Among Admitted Females
+
+- **More Work & Volunteer Experience Among Admitted Females**
   - Females had higher volunteer levels (2.4 vs. 2.1) and slightly more work experience (2.2 vs. 1.9).
   - This suggests that practical experience and extracurricular involvement played a bigger role in female selections compared to males.
 
 However, this trend only applies to admitted applicants. From the table, we found that
+
 - **Work & Volunteer Experience Don’t Guarantee Acceptance**
   - Waitlisted applicants had the highest volunteer & work experience, suggesting that well-rounded candidates without standout academic records are often put on hold.
   - Rejected male applicants had the highest volunteer level (3.0), but it didn’t compensate for lower GPAs and writing scores.
@@ -123,26 +126,28 @@ However, this trend only applies to admitted applicants. From the table, we foun
 The analysis of summer internship admission decisions has revealed key patterns in **geographic, gender, and academic factors** influencing applicant outcomes.
 
 **Key Takeaways**
-1. Academic Performance Remains the Strongest Predictor of Admission
+
+1. **Academic Performance Remains the Strongest Predictor of Admission**
 
 - Higher GPA and test scores correlate with higher acceptance rates.
 - However, admitted female applicants had slightly lower academic scores but stronger work and volunteer experience, suggesting a more holistic selection approach for female candidates.
 
-2. Work & Volunteer Experience Matter, But Not as Much as Academics
+2. **Work & Volunteer Experience Matter, But Not as Much as Academics**
 
 - Waitlisted and rejected candidates often had the highest work and volunteer experience, indicating that while extracurriculars are valued, they are not the primary determinant of admission.
 
-3. Gender Differences Are Minimal in Overall Selection, But Selection Criteria May Vary
+3. **Gender Differences Are Minimal in Overall Selection, But Selection Criteria May Vary**
 
 - The admission rates between male and female applicants are relatively similar in terms of proportions.
 - However, males who were admitted had stronger academic records, whereas females compensated with higher extracurricular involvement.
 
-4. Geographic Location Plays a Role in Admission Outcomes
+4. **Geographic Location Plays a Role in Admission Outcomes**
 
 - Certain states, like California and Colorado, had higher acceptance rates, suggesting stronger applicant profiles or institutional preferences.
 - Other states, like Utah and Virginia, had higher rejection rates, raising questions about regional disparities in the selection process.
 
-**Moving Forward**
+### Moving Forward
+
 Moving forward, one area for further exploration is the role of industry preferences in shaping admission decisions. Do certain industries or roles favor applicants with more experience over higher academic performance? Additionally, it would be valuable to examine **whether female applicants are applying to different fields than males**, which may contribute to variations in selection criteria.
 
 Finally, it is crucial to enhance fairness in the selection process to prevent the exclusion of qualified candidates. Recruiters and universities should reevaluate admission criteria to ensure selection biases do not disadvantage applicants from **certain states, academic backgrounds, or gender groups**. More efforts are needed to bridge the gap for applicants from underrepresented regions, ensuring equal access to internship opportunities.
