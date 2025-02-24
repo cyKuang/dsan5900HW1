@@ -49,7 +49,11 @@ The visualization is interactive, with **dynamic X and Y axes** that enable user
 
 ## Data Visualization and Insights
 
+In this section, we focus on geographic and gender factors to assess the fairness of the summer admission selection process and determine whether any biases exist.
+
 ### Where Do Applicants Come From?
+
+To begin, we aim to gain a general geographical overview of the applicants to understand where they come from and how location influences admission decisions.
 
 The first visualization provides a geographical breakdown of summer admission decisions across various states. The pie charts represent the proportion of applicants who were **admitted (blue)**, **declined (red)**, or **waitlisted (orange)** in different locations.
 
@@ -58,11 +62,15 @@ The first visualization provides a geographical breakdown of summer admission de
 
 ```
 
-From this map, we can observe that states like **California and Nevada** have a relatively high proportion of **admitted** students, suggesting a strong applicant pool from these regions. On the other hand, states such as **Massachusetts and Georgia** show a higher proportion of **declined** applicants, raising questions about possible regional disparities in acceptance rates. The significant presence of waitlisted students in some states suggests strategic waitlisting to manage yield rates and optimize enrollments.
+The map reveals that the majority of applicants come from **California, Utah, Colorado, and Florida**. This raises an important question: Do these regions offer stronger networks or better resources that encourage more students to apply?
 
-These findings prompt further questions: Are students from certain states disadvantaged due to quotas or implicit biases? Is there a preference for in-state applicants over out-of-state students? Understanding these regional differences is crucial to ensuring a fair and balanced admissions process.
+Additionally, we observe notable differences in admission outcomes across states. **California and Colorado** have a higher proportion of admitted students, suggesting that applicants from these regions may have stronger profiles or that these states are more favored in the selection process. In contrast, Utah show a higher proportion of declined applicants, pointing to potential regional disparities in acceptance rates.
 
-### How Does GPA Influence Admission?
+Another interesting pattern is the significant number of waitlisted students in some states (such as in Virginia), which could indicate a strategic approach to managing yield rates and optimizing enrollment.
+
+These findings lead us to critical questions: Are students from certain states at a disadvantage due to quotas or implicit biases? Do in-state applicants receive preferential treatment over out-of-state students? Understanding these regional differences is essential to ensuring a fair and equitable admissions process.
+
+#### How Does GPA Influence Admission?
 
 ```{=html}
 <div class='tableauPlaceholder' id='viz1740345272532' style='position: relative'><noscript><a href='#'><img alt='Summer Admission Decision vs. Average GPT ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59vis2&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='59vis2&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59vis2&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740345272532');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
@@ -70,9 +78,21 @@ These findings prompt further questions: Are students from certain states disadv
 
 The second visualization examines the relationship between GPA and summer admission decisions across different states. **Darker shades** on the map indicate **higher average GPAs** for each admission category.
 
-From this analysis, we see a clear pattern: students with **higher GPAs** are more likely to be **admitted**, especially in states like California, Nevada, and Florida. Conversely, states with a higher proportion of rejected applicants tend to have lower GPAs, as seen in lighter-colored states like Mississippi and North Carolina.
+From this analysis, we see a clear pattern: students with **higher GPAs** are more likely to be **admitted**, especially in states like California, Colorado, and Florida. Conversely, states with a higher proportion of rejected applicants tend to have lower GPAs, as seen in lighter-colored states like Virginia.
 
 Interestingly, waitlisted students often have intermediate GPAs, suggesting that while academic performance is important, it is not the sole factor determining admission. This insight raises important strategic considerations: Are we rejecting high-GPA students from certain states due to capacity limits or other institutional priorities? Should we reconsider admission criteria to ensure we are not missing out on strong candidates from specific regions?
+
+### Gender Disparities in Admission Decisions: Do Male and Female Applicants Face Different Outcomes?
+
+```{=html}
+<div class='tableauPlaceholder' id='viz1740421163108' style='position: relative'><noscript><a href='#'><img alt='Admission Decision Between Male and Female Applicants ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu1&#47;Sheet5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hw1gendervisu1&#47;Sheet5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu1&#47;Sheet5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740421163108');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+```
+
+#### What Are the Key Factors in Admissions Comparing Male and Female Applicants?
+
+```{=html}
+<div class='tableauPlaceholder' id='viz1740420652363' style='position: relative'><noscript><a href='#'><img alt='Comparison Between Male and Female Applicants ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1table1&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hw1table1&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1table1&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740420652363');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+```
 
 ### What Are the Key Factors in Admissions?
 
