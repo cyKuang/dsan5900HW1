@@ -7,6 +7,9 @@ format:
   html:
     code-fold: true
     embed-resources: true
+    toc: true
+    toc-location: right
+    number-sections: true
 ---
 
 <style type="text/css">
@@ -19,15 +22,30 @@ format:
 
 ![](image.png)
 
-## Introductiosn
+## Introduction
 
 Every year, thousands of students apply for competitive summer internships, hoping to gain hands-on experience, build industry connections, and set themselves apart in the job market. Yet, not all applications are judged equally. While some students secure coveted spots with ease, others—despite strong credentials—face rejection or indefinite waitlisting.
 
-In recent years, concerns about **internship selection fairness** have gained attention. Are companies prioritizing the right candidates? Are **GPA and test scores** the best predictors of success in the workplace? Are students from **certain universities or regions** getting an unfair advantage?
+In recent years, concerns about **internship selection fairness** have gained attention. 
+
+> Are companies prioritizing the right candidates? 
+
+> Are **GPA and test scores** the best predictors of success in the workplace? 
+
+> Are students from **certain universities or regions** getting an unfair advantage?
 
 To answer these questions, we analyzed data from our university to uncover trends in internship selection. Through this data-driven investigation, we aim to **unravel the hidden patterns behind internship offers, rejections, and waitlists**—ultimately helping students and recruiters make smarter, fairer decisions.
 
 ## Data Overview & Preprocessing
+
+```{=html}
+<div class='tableauPlaceholder' id='viz1740377345797' style='position: relative'><noscript><a href='#'><img alt='Relationships Between Quantitative and Qualitative Metrics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17403773116930&#47;Sheet5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_17403773116930&#47;Sheet5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17403773116930&#47;Sheet5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740377345797');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+```
+
+This dataset captures key **academic** and **extracurricular** metrics of students applying for a program, including **GPA**, **work experience**, **test scores**, **writing scores**, and **volunteer levels**. Additionally, it records the final admission decision, categorized into **Admitted** (red), **Declined** (blue), and **Waitlisted** (orange). These metrics help provide an overview of applicants' profiles and allow for deeper analysis of the factors influencing admission outcomes.
+
+The visualization is interactive, with **dynamic X and Y axes** that enable users to explore relationships between different variables. Each data point represents an applicant, with colors distinguishing their admission status. Reference lines display **average values**, offering a benchmark for comparison. This interactive design allows for flexible data exploration, enabling users to focus on specific aspects of the dataset based on their selections.
+
 
 ## Data Visualization and Insights
 
@@ -75,3 +93,6 @@ The data reveals that while internship selection is largely merit-based, hidden 
 To build a stronger, more diverse workforce, recruiters must look beyond grades and test scores, while students must position themselves as well-rounded candidates who bring more than just academic achievements to the table.
 
 By refining the internship selection process, we can create a fairer, more dynamic system that helps students unlock opportunities and prepares them for long-term career success.
+
+
+
