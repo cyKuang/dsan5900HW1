@@ -36,7 +36,22 @@ In recent years, concerns about **internship selection fairness** have gained at
 
 To answer these questions, we analyzed data from our university to uncover trends in internship selection. Through this data-driven investigation, we aim to **unravel the hidden patterns behind internship offers, rejections, and waitlists**—ultimately helping students and recruiters make smarter, fairer decisions.
 
-## Data Overview & Preprocessing
+## Performance Metrics 
+
+### School Performance Metrics
+
+![School Performance Metrics](./graph/performance1.png)
+
+The first set of charts shows how GPA, test scores, and writing scores differ across admissions decisions. Overall, applicants generally outperform candidates and rejections academically, with high GPAs and test scores clearly making it easier to gain admission, while lower academic scores are more likely to lead to rejection. Candidates' academic performance, while better than those rejected, did not meet the criteria for direct admission, which may indicate that they were lacking in other areas or failed to stand out in a highly competitive situation. The trend in writing scores was similar to GPA and test scores, with applicants performing significantly better in writing, candidates second, and rejections having the lowest writing scores. This suggests that academic performance remains a key factor in determining admissions in the overall assessment, while writing ability may also influence application outcomes in specific circumstances, but to a lesser extent.
+
+### Extracurricular Performance Metrics
+![Extracurricular Performance Metrics](./graph/performance2.png)
+
+The second set of charts analyzed practical experience, including work experience and volunteer activities. The results showed that higher work and volunteer experience did not significantly increase the acceptance rate of applicants, but was more common among candidates and rejections. This suggests that while practical experience may be part of the assessment, it is not a substitute for academic achievement as the determining factor for admission. Although the practical experience of the applicants also has a certain accumulation, but in contrast, their advantages in academic performance are more obvious. This trend suggests that relying on practical experience alone may not be enough to compensate for academic shortcomings in the application process, and that admissions decisions are more likely to consider practical background on the basis of academic excellence. 
+
+To sum up, although practical experience may enhance the competitiveness of applicants to a certain extent, it cannot completely replace academic performance, and the final admission is still based on academic ability as the core evaluation criteria.
+
+### Comparison of two metrics
 
 ```{=html}
 <div class='tableauPlaceholder' id='viz1740377345797' style='position: relative'><noscript><a href='#'><img alt='Relationships Between Quantitative and Qualitative Metrics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17403773116930&#47;Sheet5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_17403773116930&#47;Sheet5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17403773116930&#47;Sheet5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740377345797');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
@@ -47,11 +62,11 @@ This dataset captures key **academic** and **extracurricular** metrics of studen
 The visualization is interactive, with **dynamic X and Y axes** that enable users to explore relationships between different variables. Each data point represents an applicant, with colors distinguishing their admission status. Reference lines display **average values**, offering a benchmark for comparison. This interactive design allows for flexible data exploration, enabling users to focus on specific aspects of the dataset based on their selections.
 
 
-## Data Visualization and Insights
+## Geographical Factors
 
-In this section, we focus on geographic and gender factors to assess the fairness of the summer admission selection process and determine whether any biases exist.
+In this section, we focus on geographic factor to assess the fairness of the summer admission selection process and determine whether any biases exist.
 
-### Where Do Applicants Come From?
+> Where Do Applicants Come From?
 
 To begin, we aim to gain a general geographical overview of the applicants to understand where they come from and how location influences admission decisions.
 
@@ -70,10 +85,10 @@ Another interesting pattern is the **significant number of waitlisted students i
 
 These findings lead us to critical questions: Are students from certain states at a disadvantage due to quotas or implicit biases? Do in-state applicants receive preferential treatment over out-of-state students? Understanding these regional differences is essential to ensuring a fair and equitable admissions process.
 
-#### How Does GPA Influence Admission?
+### How Does GPA Influence Admission?
 
 ```{=html}
-<div class='tableauPlaceholder' id='viz1740345272532' style='position: relative'><noscript><a href='#'><img alt='Summer Admission Decision vs. Average GPT ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59vis2&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='59vis2&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59vis2&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740345272532');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1740436101609' style='position: relative'><noscript><a href=' '>< img alt='Summer Admission Decision vs. Average GPA ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59mapplot&#47;Sheet3&#47;1_rss.png' style='border: none' /></a ></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='59mapplot&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;59&#47;59mapplot&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740436101609');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 ```
 
 The second visualization examines the relationship between GPA and summer admission decisions across different states. **Darker shades** on the map indicate **higher average GPAs** for each admission category.
@@ -82,7 +97,11 @@ From this analysis, we see a clear pattern: students with **higher GPAs** are mo
 
 Interestingly, waitlisted students often have intermediate GPAs, suggesting that while academic performance is important, it is **not the sole factor determining admission**. This insight raises important strategic considerations: Are we rejecting high-GPA students from certain states due to capacity limits or other institutional priorities? Should we reconsider admission criteria to ensure we are not missing out on strong candidates from specific regions?
 
-### Gender Disparities in Admission Decisions: Do Male and Female Applicants Face Different Outcomes?
+## Gender Factors
+
+In this section, we focus on gender factor to assess the fairness of the summer admission selection process and determine whether any biases exist.
+
+> Gender Disparities in Admission Decisions: Do Male and Female Applicants Face Different Outcomes?
 
 ```{=html}
 <div class='tableauPlaceholder' id='viz1740423223077' style='position: relative'><noscript><a href='#'><img alt='Admission Decision Between Male and Female Applicants ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu2&#47;Sheet6&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hw1gendervisu2&#47;Sheet6' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hw1gendervisu2&#47;Sheet6&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1740423223077');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
@@ -95,7 +114,7 @@ Moreover, there was **similar acceptance rates, decline rates, and waitlist rate
 
 Therefore, the admission decisions between male and female applicants appear to be generally fair. Next, we will delve deeper into the statistical summary of male and female applicants, focusing on their **academic performance** and **extracurricular activities**.
 
-#### The Story Behind the Numbers: How Do Male and Female Applicants Compare?
+### The Story Behind the Numbers: How Do Male and Female Applicants Compare?
 
 After examining overall admission decisions, we now shift our focus to academic performance and extracurricular activities to uncover potential patterns influencing male and female applicants’ outcomes. This statistical summary provides key insights into how **GPA, test scores, volunteer work, work experience, and writing skills** contribute to internship selection.
 
@@ -123,7 +142,7 @@ However, this trend only applies to admitted applicants. From the table, we foun
 
 ## Conclusion
 
-The analysis of summer internship admission decisions has revealed key patterns in **geographic, gender, and academic factors** influencing applicant outcomes.
+The analysis of summer internship admission decisions has revealed key patterns in **geographic**, **gender**, and **academic factors** influencing applicant outcomes.
 
 **Key Takeaways**
 
@@ -152,3 +171,7 @@ Moving forward, one area for further exploration is the role of industry prefere
 
 Finally, it is crucial to enhance fairness in the selection process to prevent the exclusion of qualified candidates. Recruiters and universities should reevaluate admission criteria to ensure selection biases do not disadvantage applicants from **certain states, academic backgrounds, or gender groups**. More efforts are needed to bridge the gap for applicants from underrepresented regions, ensuring equal access to internship opportunities.
 
+
+## Code
+
+Check out the code used in our analysis [here](https://github.com/cyKuang/dsan5900HW1)!
